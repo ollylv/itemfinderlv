@@ -1,0 +1,50 @@
+body {
+  color: #dcffff;
+  background-color: #444eff; }
+
+.main-container {
+  float: left;
+  width: 100%;
+  box-sizing: border-box; }
+
+.content {
+  float: right;
+  width: 50%;
+  margin: 10px 100px auto; }
+
+.tools {
+  width: 50%;
+  margin: 20px 50px auto 150px; }
+
+table {
+  font-size: 20px;
+  font-family: Calibri;
+  font-weight: normal; }
+
+a {
+  color: #00ff2c;
+  text-decoration: none; }
+
+label {
+  font-size: 20px; }
+
+.input-form-mail {
+  margin: 20px auto; }
+
+.input {
+  width: auto;
+  margin: 5px auto; }
+
+.button {
+  width: 60px;
+  margin: 10px auto;
+  border: 2px solid #00ac1f;
+  background-color: #2bff25;
+  font-weight: bold; }
+
+.clear-btn {
+  margin: 1px auto;
+  border: 2px solid #ba1437;
+  background-color: #ff0000; }
+
+/*# sourceMappingURL=main.css.map */

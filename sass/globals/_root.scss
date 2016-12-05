@@ -1,0 +1,21 @@
+body {
+  color: #dcffff;
+  background-color: #444eff;
+}
+
+.main-container {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content {
+  float: right;
+  width: 50%;
+  margin: 10px 100px auto;
+}
+
+.tools {
+  width: 50%;
+  margin: 20px 50px auto 150px;
+}

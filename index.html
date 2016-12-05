@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>This is a test</title>
+
+    <link rel="stylesheet" href="css/main.css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
+
+</head>
+<body>
+
+<div class="main-container">
+    <div class="header">
+        <div class="header-container">
+
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-container">
+            <div class="table-container">
+                <table class="query-results-table">
+                    <thead>
+                    </thead>
+                    <tbody class="query-results">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="tools">
+        <div class="form-container">
+            <div class="input-form-information">
+                <label for="tool-input-form">Input your desired item :)</label>
+                <form action="/" id="tool-input-form">
+                    <input type="text" class="item input" name="itemname" placeholder="Item Name"><br>
+                    <input type="text" class="price-from input" name="pricefrom" placeholder="Price From"><br>
+                    <input type="text" class="price-to input" name="priceto" placeholder="Price To"><br>
+                    <label for="site-list">Choose your website</label><br>
+                    <select id="site-list" class="sites input" name="sitelist">
+                        <option value="www.salidzini.lv">www.salidzini.lv</option>
+                        <option value="www.kurpirkt.lv">www.kurpirkt.lv(comming soon)</option>
+                        <option value="www.ss.lv">www.ss.lv(comming soon)</option>
+                    </select><br>
+                    <input type="submit" class="submit-btn button" value="Search">
+                </form>
+                <button class="clear-btn button">Clear</button>
+            </div>
+            <div class="input-form-mail">
+                <form action="blablasendemail.php" id="tool-input-form-email">
+                <label for="tool-input-form-email">Send information to an e-mail -- NOT WORKING</label><br>
+                    <input type="text" class="email input" name="email" placeholder="Your email"><br>
+                    <input type="submit" class="send-btn button" value="Send">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
